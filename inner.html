@@ -24,7 +24,7 @@
           </ul>
         </nav>
         <div class="logo">
-          <img src="sedona-label.png" alt="Sedona label">
+          <a href="#"><img src="sedona-label.png" alt="Sedona label"></a>
         </div>
       </header>
       <section class="search-properties">
@@ -40,9 +40,17 @@
             <input type="checkbox" id="check6"><label for="check6">Апартаменты</label>
           </div>
           <div class="pricing">
-            <span>От 0</span>
-            <span>До 3000</span>
-            <div class="range-price">
+            <div class="price-controls">
+              <input class="min-price" type="text" value="от 0">
+              <input class="max-price" type="text" value="до 3000">
+            </div> 
+            <div class="range-controls">
+              <div class="scale">
+                <div style="width:75%;" class="bar"></div>
+              </div>
+              <div class="toggle min-toggle"></div>
+              <div class="toggle max-toggle"></div>
+            </div>
             </div>
             <input type="submit" value="Показать">
           </div>
@@ -65,8 +73,8 @@
           </ul>
         </div>
         <div class="sort-right">
-          <a href="#"><img src="buttom-up"></a>
-          <a href="#"><img src="top-down"></a>
+          <a href="#"></a>
+          <a href="#"></a>
         </div>
       </section>
       <section class="hotel-results">
@@ -85,7 +93,7 @@
           </div>
           <div class="hotel-rating">
             <div class="hotel-stars">
-              <span>&#9733;</span> <span>&#9733;</span> <span>&#9733;</span> <span>&#9733;</span>
+              <span class="stars"></span>
             </div>
             <div class="rating-point">
               <p>Рейтинг: 8,5</p>
@@ -107,7 +115,7 @@
           </div>
           <div class="hotel-rating">
             <div class="hotel-stars">
-              <span>&#9733;</span> <span>&#9733;</span>
+              <span class="stars"></span>
             </div>
             <div class="rating-point">
               <p>Рейтинг: 8,9</p>
@@ -129,7 +137,7 @@
           </div>
           <div class="hotel-rating">
             <div class="hotel-stars">
-              <span>&#9733;</span> <span>&#9733;</span> <span>&#9733;</span>
+              <span class="stars"></span>
             </div>
             <div class="rating-point">
               <p>Рейтинг: 9,2</p>

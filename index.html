@@ -35,21 +35,23 @@
         <p class="text-intro">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
       <section class="reason-1">
+        <div class="real-city">
         <h3>Настоящий городок</h3>
         <p>— №1 —</p>
         <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+      </div>
         <img src="real-city.png" alt="Пейзажи Седоны">
       </section>
       <section class="hotel-food-souv">
-        <div class="hotel-reason">
+        <div class="reason hotel-reason">
           <h4>Жилье</h4>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </div>
-        <div class="food-reason">
+        <div class="reason food-reason">
           <h4>Еда</h4>
           <p>Всегда заказывайте ФИРМЕННЫЙ БУРГЕР, Вы НЕ разочаруетесь!</p>
         </div>
-        <div class="souvenir-reason">
+        <div class="reason souvenir-reason">
           <h4>Сувениры</h4>
           <p>Не только китайского, но и местного производства!</p>
         </div>
@@ -61,17 +63,17 @@
         <p>Да, по нему можно пройти! Если конечно Вы осмелитесь</p>
       </section>
       <div class="space-road-tourist">
-        <div class="reason-3">
+        <div class="reason-block-3">
           <h4>Небольшая площадь</h4>
           <p>— №3 —</p>
           <p>ВСЕ достопримечательности  находятся очень близко</p>
         </div>
-        <div class="reason-4">
+        <div class="reason-block-3">
           <h4>Красивая дорога</h4>
           <p>— №4 —</p>
           <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
-        <div class="reason-4">
+        <div class="reason-block-3">
           <h4>Мало туристов</h4>
           <p>— №5 —</p>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
@@ -81,12 +83,15 @@
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки,  и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
         <div class="hotels">
-          <h3>Поиск гостиницы в Седоне</h3>
+          <button class="hotel-search">Поиск гостиницы в Седоне</button>
           <form class="planning-visit" action="https://echo.htmlacademy.ru" method="post">
-            <input type="text" name="calendar" id="check-in-date"><label for="check-in-date">Дата заезда</label>
-            <button class="calendar-icon"><img src="calendar-icon.png"></button>
+            <div class="calendar-date"><input type="text" name="calendar" id="check-in-date"><label for="check-in-date">Дата заезда</label>
+            <button class="calendar-icon"></button>
+          </div>
+          <div class="calendar-date">
             <input type="text" name="calendar" id="check-out-date"><label for="check-out-date">Дата выезда</label>
-            <button class="calendar-icon"><img src="calendar-icon.png"></button>
+            <button class="calendar-icon"></button>
+          </div>
             <input type="number" name="visitors" id="adult-visitors"><label for="adult-visitors">Взрослые</label>
             <input type="number" name="visitors" id="child-visitors"><label for="child-visitors">Дети</label>
             <input type="submit" value="Найти">
