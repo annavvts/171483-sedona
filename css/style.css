@@ -6,16 +6,17 @@ body{
 	color:#333333;
 }
 
-h2{
+h3.introduction{
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 1.2;
 	color:#000000;
 }
 
-h3{
+h3.container{
 	font-size: 21px;
 	font-weight: bold;
+	line-height: 1;
 	color:#ffffff;
 }
 
