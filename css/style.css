@@ -1,0 +1,22 @@
+body{
+	font-size: 14px;
+	font-family: "PTSans";
+	font-weight: normal;
+	line-height: 1;
+	color:#333333;
+}
+
+h2{
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 1.2;
+	color:#000000;
+}
+
+h3{
+	font-size: 21px;
+	font-weight: bold;
+	color:#ffffff;
+}
+
+
