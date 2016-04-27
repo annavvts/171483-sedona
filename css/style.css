@@ -20,4 +20,218 @@ h3.container{
 	color:#ffffff;
 }
 
+.page-content{
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 1200px;
+}
 
+.main-header{
+	padding: 20px 72px;
+}
+
+.top-page-intro img{
+	display: block;
+	margin: 0px auto;
+	margin-top: 76px;
+}
+
+.main-introduction{
+	padding-top: 65px;
+	padding-bottom: 58px;
+}
+
+.reason-container{
+	width: 280px;
+	height: 142px;
+	padding: 57px 60px;
+}
+
+.reason-1 .reason-container{
+	float:left;
+}
+
+.reason{
+	width: 300px;
+	padding: 88px 50px;
+}
+
+.reason::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.hotel-reason{
+	float:left;
+}
+
+.food-reason{
+	float:left;
+}
+
+.souvenir-reason{
+	float:right;
+}
+
+.reason-2 .reason-container{
+	float:right;
+}
+
+.reason-container::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.reason-block-3{
+	float:left;
+	width: 210px;
+	padding: 50px 95px;
+}
+
+.reason-block-3:last-child{
+	float:right;
+}
+
+.reason-block-3::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.plan-visit{
+	padding-top: 57px;
+}
+
+.hotels{
+	max-width: 568px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 54px;
+	padding: 55px;
+}
+
+.calendar-date{
+	padding-top: 30px;
+}
+
+.hotels input[type="number"]{
+	margin-top: 30px;
+}
+
+
+.search-properties{
+	padding: 30px 73px;
+}
+
+.search-properties::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.infrastructure{
+	float: left;
+}
+
+.accommodation{
+	float:left;
+	margin-left: 110px;
+}
+
+.pricing{
+	float:right;
+}
+
+.sort-results{
+	padding: 32px 73px;
+	clear:both;
+}
+
+.sort-results::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.sort-left{
+	float:left;
+}
+
+.sort-right{
+	float: right;
+	margin-right: 73px;
+}
+
+.hotel-results{
+	padding:  0px 73px;
+}
+
+.hotel-item{
+	padding-top: 32px;
+	padding-bottom: 32px;
+	min-height: 152px;
+}
+
+.hotel-preview{
+	float: left;
+}
+
+.hotel-summary{
+	padding-left: 28px;
+	float: right;
+}
+
+.hotel-summary-plus{
+	margin-top: 22px;
+}
+
+.hotel-rating{
+	float: right;
+}
+
+.hotel-stars{
+	padding-top: 34px;
+	padding-bottom: 47px;
+}
+
+.hotel-results::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.visit-sedona{
+	float: left;
+	padding-left: 133px;
+	padding-top: 40px;
+	padding-bottom: 53px;
+}
+
+.social-buttons{
+	float: left;
+}
+
+.copyright{
+	float:right;
+	padding-right: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.copyright p{
+	float: left;
+	margin-right: 5px;
+}
+
+.footer::after{
+	content: "";
+	display: table;
+	clear: both;
+}
