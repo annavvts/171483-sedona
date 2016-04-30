@@ -162,11 +162,14 @@ h4{
 	padding: 30px 73px;
 }
 
+.search-properties ul{
+	list-style: none;
+}
+
 
 .infrastructure{
 	float: left;
 }
-
 .accommodation{
 	float:left;
 	margin-left: 110px;
@@ -214,6 +217,11 @@ h4{
 	float: right;
 }
 
+.hotel-summary h4{
+	text-align: left;
+	margin: 0;
+}
+
 .hotel-summary-plus{
 	margin-top: 22px;
 }
@@ -253,10 +261,4 @@ h4{
 .copyright p{
 	float: left;
 	margin-right: 5px;
-}
-
-.footer::after{
-	content: "";
-	display: table;
-	clear: both;
 }
