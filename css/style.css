@@ -2,7 +2,7 @@ body{
 	font-size: 14px;
 	font-family: "PTSans";
 	font-weight: normal;
-	line-height: 1;
+	line-height: 24px;
 	color:#333333;
 }
 
@@ -14,16 +14,20 @@ body{
 .main-introduction h3{
 	font-size: 21px;
 	font-weight: bold;
-	line-height: 1.2;
-	color:#000000;
+	line-height: 26px;
+	color: #000000;
 	text-align: center;
 }
 
+.reason-container{
+	background-color: #81b3d2;
+}
 .reason-container h3{
 	font-size: 21px;
 	font-weight: bold;
-	line-height: 1;
-	color:#ffffff;
+	line-height: 21px;
+	color: #ffffff;
+	text-align: center;
 }
 
 .page-content{
@@ -49,6 +53,7 @@ body{
 .main-navigation li{
 	display: inline;
 	margin-right: 148px;
+	line-height: 26px;
 }
 
 .main-navigation li:nth-child(2){
@@ -68,7 +73,7 @@ body{
 
 .main-introduction p{
 	text-align: center;
-	line-height: 1.8;
+	line-height: 21px;
 }
 
 .reason-container{
@@ -81,7 +86,7 @@ body{
 	float:left;
 }
 .reason-container p{
-	line-height: 1;
+	line-height: 21px;
 	text-align: center;
 }
 
@@ -97,7 +102,7 @@ body{
 }
 
 h4{
-	line-height: 1;
+	line-height: 21px;
 	text-align: center;
 }
 
@@ -128,17 +133,22 @@ h4{
 }
 
 .reason-block-3 p{
-	line-height: 1;
+	line-height: 21px;
 	text-align: center;
 }
 
 .plan-visit{
 	padding-top: 57px;
 }
-.plan-visit p{
-	line-height: 0.8;
-	text-align: center;
 
+.plan-visit .plan-visit-head{
+	line-height: 24px;
+	text-align: center;
+}
+
+.plan-visit p{
+	line-height: 21px;
+	text-align: center;
 }
 .hotels{
 	max-width: 568px;
@@ -220,6 +230,7 @@ h4{
 .hotel-summary h4{
 	text-align: left;
 	margin: 0;
+	line-height: 26px;
 }
 
 .hotel-summary-plus{
