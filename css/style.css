@@ -1,4 +1,5 @@
 body{
+	min-width: 1200px;
 	font-size: 14px;
 	font-family: "PTSans";
 	font-weight: normal;
@@ -6,22 +7,49 @@ body{
 	color:#333333;
 }
 
+h3{
+	margin: 0;
+	padding: 0;
+}
+
+h4{
+	margin: 0;
+	padding: 0;
+	line-height: 21px;
+	text-align: center;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
 .clearfix::after{
 	content: "";
 	display: table;
 	clear: both;
 }
+
+.page-content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	background: #f2f2f2;
+}
+
 .main-introduction h3{
 	font-size: 21px;
 	font-weight: bold;
 	line-height: 26px;
 	color: #000000;
 	text-align: center;
+	margin-bottom: 35px;
 }
 
 .reason-container{
 	background-color: #81b3d2;
 }
+
 .reason-container h3{
 	font-size: 21px;
 	font-weight: bold;
@@ -30,14 +58,7 @@ body{
 	text-align: center;
 }
 
-.page-content{
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-}
-
 .main-header{
-	padding: 15px 72px;
 	position: relative;
 }
 
@@ -50,20 +71,41 @@ body{
 	width: 138px;
 }
 
+.main-navigation{
+	width: 1200px;
+	margin-left: 73px;
+	margin-right: 73px;
+}
+
+.main-navigation ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+}
+
 .main-navigation li{
-	display: inline;
+	display: inline-block;
 	margin-right: 148px;
 	line-height: 26px;
+	font-size: 14px;
 }
 
 .main-navigation li:nth-child(2){
 	margin-right: 400px;
 }
 
+.main-navigation a{
+	display: block;
+	padding: 20px 0px;
+	text-decoration: none;
+}
+
 .top-page-intro img{
 	display: block;
 	margin: 0px auto;
 	margin-top: 76px;
+	width: 458px;
 }
 
 .main-introduction{
@@ -82,12 +124,17 @@ body{
 	padding: 57px 60px;
 }
 
+.reason-container img{
+	width: 800px;
+}
+
 .reason-1 .reason-container{
 	float:left;
 }
 .reason-container p{
 	line-height: 21px;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .reason{
@@ -95,14 +142,16 @@ body{
 	padding: 88px 50px;
 }
 
+.reason p{
+	margin-top: 30px;
+}
+
+.reason-block-3 p{
+	margin-top: 30px;
+}
 
 .hotel-food-souv p{
 	line-height: 1;
-	text-align: center;
-}
-
-h4{
-	line-height: 21px;
 	text-align: center;
 }
 
@@ -138,12 +187,13 @@ h4{
 }
 
 .plan-visit{
-	padding-top: 57px;
+	padding-top: 55px;
 }
 
 .plan-visit .plan-visit-head{
 	line-height: 24px;
 	text-align: center;
+	margin-bottom: 35px;
 }
 
 .plan-visit p{
@@ -151,13 +201,12 @@ h4{
 	text-align: center;
 }
 .hotels{
-	max-width: 568px;
+	width: 568px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 54px;
 	padding: 55px;
 }
-
 
 .calendar-date{
 	padding-top: 30px;
@@ -167,19 +216,30 @@ h4{
 	margin-top: 30px;
 }
 
+/*inner page*/
+
+.main-container-inner{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1056px;
+}
+
 
 .search-properties{
-	padding: 30px 73px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .search-properties ul{
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
-
 
 .infrastructure{
 	float: left;
 }
+
 .accommodation{
 	float:left;
 	margin-left: 110px;
@@ -190,17 +250,35 @@ h4{
 }
 
 .sort-results{
-	padding: 32px 73px;
-	clear:both;
+	padding-top: 32px;
+	clear: both;
+	margin-bottom: 35px;
 }
 
 .sort-left{
 	float:left;
 }
 
+.sort-left span{
+	display: inline-block;
+	font-size: 21px;
+	margin-right: 50px;
+}
+
+.sort-left ul{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
 .sort-left li{
-	display: inline;
+	display: inline-block;
 	margin-right: 32px;
+	font-size: 12px;
+}
+
+.sort-left a{
+	text-decoration: none;
 }
 
 .sort-right{
@@ -209,32 +287,68 @@ h4{
 }
 
 .hotel-results{
-	padding:  0px 73px;
 }
 
 .hotel-item{
 	padding-top: 32px;
-	padding-bottom: 32px;
+	padding-bottom: 30px;
 	min-height: 152px;
+	background-color: blue;
 }
 
 .hotel-preview{
 	float: left;
+	background-color: red;
+}
+
+.hotel-preview img{
+	width: 135px;
+	height: 90px;
 }
 
 .hotel-summary{
-	padding-left: 28px;
+	margin-left: 30px;
 	float: right;
+	font-size: 0px;
 }
 
 .hotel-summary h4{
 	text-align: left;
-	margin: 0;
 	line-height: 26px;
+	font-size: 21px;
 }
 
 .hotel-summary-plus{
-	margin-top: 22px;
+	margin-top: 14px;
+}
+
+.hotel-summary-plus span{
+	font-size: 14px;
+}
+
+.hotel-type{
+	margin-right: 40px;
+}
+
+.hotel-action{
+	margin-top: 16px;
+}
+
+.read-more{
+	padding: 4px 15px;
+	background-color: #81b3d2;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+.book-it{
+	margin-left: 7px;
+	padding: 4px 15px;
+	background-color: #766357;
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
 }
 
 .hotel-rating{
@@ -242,8 +356,13 @@ h4{
 }
 
 .hotel-stars{
-	padding-top: 34px;
-	padding-bottom: 47px;
+	margin-bottom: 75px;
+}
+
+.rating-point span{
+	padding: 5px 15px;
+	background-color: #f2f2f2;
+	color: #666666;
 }
 
 .footer{
