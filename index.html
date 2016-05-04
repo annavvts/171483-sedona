@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
@@ -35,7 +37,7 @@
         <h3>СЕДОНА — небольшой городок в Аризоне,  заслуживающий большего!</h3>
         <p class="text-intro">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
       </section>
-      <section class="reason-1">
+      <section class="reason-1 clearfix">
         <div class="reason-container">
           <h3>Настоящий городок</h3>
           <p>— №1 —</p>
@@ -84,21 +86,28 @@
       </div>
       <section class="plan-visit">
         <p class="plan-visit-head">Заинтересовались?</p>
-        <p>Укажите предполагаемые даты поездки,  и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
+        <p class="plan-visit-text">Укажите предполагаемые даты поездки,  и мы покажем Вам лучшие предложения гостиниц в Седоне</p>
         <div class="hotels">
           <button class="hotel-search">Поиск гостиницы в Седоне</button>
-          <form class="planning-visit" action="https://echo.htmlacademy.ru" method="post">
-            <div class="calendar-date"><label for="check-in-date">Дата заезда</label><input type="text" name="calendar" id="check-in-date">
-              <button class="calendar-icon"></button>
-            </div>
-            <div class="calendar-date">
-              <label for="check-out-date">Дата выезда</label><input type="text" name="calendar" id="check-out-date">
-              <button class="calendar-icon"></button>
-            </div>
-            <label for="adult-visitors">Взрослые</label><input type="number" name="visitors" id="adult-visitors">
-            <label for="child-visitors">Дети</label><input type="number" name="visitors" id="child-visitors">
-            <input type="submit" value="Найти">
-          </form>
+          <div class="hotel-form">
+            <form class="planning-visit" action="https://echo.htmlacademy.ru" method="post">
+              <div class="calendar-date">
+                <label for="check-in-date">Дата заезда</label>
+                <input type="text" name="calendar" id="check-in-date" placeholder="24 Апреля 2016">
+                <button class="calendar-icon"></button>
+              </div>
+              <div class="calendar-date">
+                <label for="check-out-date">Дата выезда</label>
+                <input type="text" name="calendar" id="check-out-date" placeholder="4 июля 2016">
+                <button class="calendar-icon"></button>
+              </div>
+              <div class="visitors-input">
+                <label for="adult-visitors">Взрослые</label><input type="number" name="visitors" id="adult-visitors" value="2">
+                <label for="child-visitors">Дети</label><input type="number" name="visitors" id="child-visitors" value="0">
+              </div>
+              <input type="submit" value="Найти" class="search-button">
+            </form>
+          </div>
         </div>
         <div class="map">
         </div>
