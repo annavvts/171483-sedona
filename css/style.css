@@ -86,7 +86,7 @@ p{
 	display: inline-block;
 	line-height: 26px;
 	font-size: 14px;
-	width: 20%;
+	width: 23%;
 }
 
 .main-navigation li:first-child li,.main-navigation li:nth-child(2){
@@ -94,7 +94,7 @@ p{
 }
 
 .main-navigation li:nth-child(3){
-	margin-left: 210px;
+	margin-left: 84px;
 }
 
 .main-navigation li:nth-child(3),.main-navigation li:nth-child(4){
@@ -211,9 +211,9 @@ p{
 
 .plan-visit{
 	padding-top: 55px;
-	padding-left: 313px;
-	padding-right: 313px;
 	font-weight: 700;
+	position: relative;
+	margin-bottom: 200px;
 }
 
 .plan-visit-head{
@@ -230,14 +230,17 @@ p{
 }
 
 .hotels{
-	width: 568px;
+	width: 570px;
+	position: absolute;
+	margin-top: 54px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 54px;
+	left: 0;
+	right: 0;
 }
 
 .hotel-form{
-	padding: 55px 60px;
+	padding: 55px 50px;
 }
 
 .hotel-search{
@@ -285,7 +288,7 @@ p{
 .visitors-input input[type="number"]{
 	width: 103px;
 	height: 40px;
-	margin-left: 20px;
+	margin-left: 40px;
 	padding-left: 13px;
 	color: #000000;
 	text-transform: uppercase;
@@ -307,6 +310,10 @@ p{
 .visitors-input input[type="number"]::-o-input-placeholder{
 	color: #000000;
 	opacity: 1;
+}
+
+.visitors-input > label:last-of-type{
+	margin-left: 45px;
 }
 
 .hotels input[type="number"]{
@@ -382,6 +389,7 @@ p{
 .sort-left{
 	float: left;
 	width: 600px;
+	font-size: 0;
 }
 
 .sort-left span{
@@ -411,6 +419,7 @@ p{
 .sort-right{
 	float: right;
 	margin-right: 73px;
+	width: 40px;
 }
 
 .hotel-results{
@@ -427,7 +436,7 @@ p{
 
 .hotel-preview{
 	float: left;
-	width: 530px;
+	width: 800px;
 }
 
 .hotel-preview img{
@@ -435,6 +444,10 @@ p{
 	height: 90px;
 	float: left;
 }
+
+.hotel-name{
+	width: 365px;
+} 
 
 .hotel-summary{
 	margin-left: 30px;
