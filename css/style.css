@@ -151,7 +151,6 @@ p {
 .plan-visit {
   padding-top: 55px;
   font-weight: 700;
-  position: relative;
   margin-bottom: 200px;
 }
 .plan-visit-head {
@@ -166,6 +165,7 @@ p {
   font-weight: 400;
 }
 .hotels {
+  position: relative;
   width: 570px;
   margin-top: 54px;
   margin-left: auto;
@@ -174,8 +174,10 @@ p {
 .hotel-form {
   padding: 55px 50px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 .hotel-search {
   background-color: #766357;
@@ -330,29 +332,27 @@ p {
   height: 90px;
   float: left;
 }
-.hotel-name {
-  display: block;
-  max-width: 600px;
-}
 .hotel-summary {
   margin-left: 30px;
   float: left;
   font-size: 0px;
 }
 .hotel-summary a {
+  text-decoration: none;
+  font-weight: 700;
+}
+.hotel-name {
+  display: block;
+  max-width: 600px;
   text-align: left;
   line-height: 26px;
   font-size: 21px;
-  text-decoration: none;
   color: #000000;
-  font-weight: 700;
 }
-.hotel-summary-plus span {  font-size: 14px }
+.hotel-summary-plus span {  
+  font-size: 14px; 
+}
 .hotel-type {  margin-right: 40px }
-.hotel-action a {
-  font-size: 14px;
-  color: #ffffff;
-}
 .hotel-action {
   margin-top: 4px;
   line-height: 1;
@@ -360,17 +360,15 @@ p {
 .read-more {
   padding: 4px 15px;
   background-color: #81b3d2;
-  text-decoration: none;
-  color: #ffffff;
   font-size: 14px;
+  color: #ffffff;
 }
 .book-it {
   margin-left: 7px;
   padding: 4px 15px;
   background-color: #766357;
-  text-decoration: none;
-  color: #ffffff;
   font-size: 14px;
+  color: #ffffff;
 }
 .hotel-rating {  float: right }
 .hotel-stars {  margin-bottom: 65px }
