@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona</title>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700,400&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -22,7 +22,7 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="#">Гостиницы</a>
+              <a href="inner.html">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -31,7 +31,7 @@
         </div>
       </header>
       <div class="top-page-intro">
-        <img src="img/welcome.png">
+        <img src="img/welcome.png" alt="Welcome to Sedona!">
       </div>
       <section class="main-introduction">
         <h3>СЕДОНА — небольшой городок в Аризоне,  заслуживающий большего!</h3>
@@ -105,11 +105,11 @@
                 <label class="selection-label" for="adult-visitors">Взрослые:</label>
                 <div class="selection-area">
                   <div class="visitors-number adults"> 
-                    <span class="counter">-</span><input type="number" name="visitors" id="adult-visitors" value="2"><span class="counter">+</span>
+                    <span class="counter minus">-</span><input type="number" name="visitors" id="adult-visitors" value="2"><span class="counter plus">+</span>
                   </div>
-                    <label for="child-visitors">Дети:</label>
+                    <label class="child-label" for="child-visitors">Дети:</label>
                     <div class="visitors-number children">
-                      <span class="counter">-</span><input type="number" name="visitors" id="child-visitors" value="0"><span class="counter">+</span>
+                      <span class="counter minus">-</span><input type="number" name="visitors" id="child-visitors" value="0"><span class="counter plus">+</span>
                     </div>
                 </div>
               </div>
@@ -118,10 +118,10 @@
           </div>
         </div>
         <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.1356575122!2d-111.8301580720799!3d34.85444381564471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1463148672841" width="1200" height="472" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.1356575122!2d-111.8301580720799!3d34.85444381564471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1463148672841" width="1200" height="472" style="border:0" allowfullscreen></iframe>
         </div>
       </section>
-      <footer>
+      <footer class="main-footer">
         <div class="container clearfix">
           <div class="visit-sedona">
             <p>#VISITSEDONA</p>
