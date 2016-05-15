@@ -715,14 +715,14 @@ input[type="checkbox"]:checked:disabled + .search-label::before {
   color: #b2b2b2;
   border-bottom: 1px dotted #81b3d2;
 }
-.sort-left a:active, .sort-left a:focus {
-  color: #000000;
-  border: none;
-  outline: none;
-}
 .sort-left a:hover {
   color: #81b3d2;
   border-bottom: 1px dotted #81b3d2;
+}
+.sort-left a:active {
+  color: #000000;
+  border: none;
+  outline: none;
 }
 .sort-left .current {
   color: #81b3d2;
