@@ -301,7 +301,7 @@ p {
   animation: show 0.6s;
   display: none;
 }
-.hotel-form-show{
+.hotel-form-show {
   display: block;
 }
 .hotel-form label {
@@ -375,7 +375,7 @@ p {
 .calendar-icon::after {
   content: "";
   position: absolute;
-  right: 5px;
+  right: 0;
   top: 0;
   background-image: url("../img/sprite.png");
   width: 21px;
@@ -394,7 +394,7 @@ p {
   margin-left: 5px;
   vertical-align: middle;
 }
-.selection-area{
+.selection-area {
   width: 345px;
   height: 40px;
   display: inline-block;
@@ -466,7 +466,7 @@ p {
   margin-right: 25px;
   text-align: right;
 }
-.visitors-input{
+.visitors-input {
   white-space: nowrap;
 }
 .visitors-input span:hover {
@@ -842,10 +842,10 @@ input[type="checkbox"]:checked:disabled + .search-label::before {
   font-size: 21px;
   color: #000000;
 }
-.hotel-name:hover{
+.hotel-name:hover {
   color:#81b3d2;
 }
-.hotel-name:active{
+.hotel-name:active {
   color:#b2b2b2;
 }
 .hotel-summary-info {
