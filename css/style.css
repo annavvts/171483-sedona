@@ -335,8 +335,8 @@ p {
   font-weight: 700;
 }
 .calendar-date {  
-  position: relative;
   margin-bottom: 24px;
+  font-size: 0;
 }
 .calendar-date input[type="text"] {
   width: 335px;
@@ -360,6 +360,10 @@ p {
   height: 36px;
   padding-left: 11px;
   width: 333px;
+}
+.date-input {
+  position: relative;
+  display: inline-block;
 }
 .calendar-icon {
   position: absolute;
@@ -452,13 +456,15 @@ p {
   right: 0;
 }
 .adults {
-  margin-right: 55px;
+  margin-right: 5px;
 }
 .child-label {
   display: inline-block;
-  width: 65px;
+  width: 90px;
   vertical-align: middle;
   white-space: normal;
+  margin-right: 25px;
+  text-align: right;
 }
 .visitors-input{
   white-space: nowrap;
